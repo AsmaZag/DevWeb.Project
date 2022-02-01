@@ -1,1 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Dongle&family=Mochiy+Pop+P+One&family=Sedgwick+Ave&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+nav .logo a {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: large;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    
 
+}
+a:link{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 15px 0px;
+
+}
+nav .onglet{
+    display: flex;
+    flex-wrap: wrap;
+
+}   
+nav .onglet a {
+    margin-left:1000px;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+    
+}
+nav .button button{
+    
+    margin-right: 20px;
+    font-family: 'Dongle', sans-serif; 
+    background-color:rgb(36, 26, 33);
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header {
+    background-image: url("pic.jpg");
+    margin-top: 0;
+    font-size: 58px;
+    padding: 150px;
+    margin-top: 0;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+footer {
+    background-color: #1a1a1a
+}
+h2{
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+}
+p {
+    font-size: 35px;
+    margin-bottom: 0;
+    color: white;
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+    padding: 15px;
+    padding-left: 150px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+span {
+    font-family: 'Sedgwick Ave', cursive;
+    color: rosybrown;
+    
+}
