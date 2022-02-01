@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="private.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>To Do List</title>
+    
+</head>
+<body>  
+    <script src="main.js"></script> 
+    <div class="app">
+        <aside class="sidebar">
+            <header class="header">
+                <h1 class="header-title">My Categories</h1>
+                <form type="submit" class="sidebar-form" >
+                    <div class="form-control">
+                        <input type="text" placeholder="Enter Category" id="myInput" >
+                    </div>
+                    <button onclick="newElement()" class="btn btn-primary">
+                        <i class="fa fa-plus" aria-hidden="true"></i> Add Category
+                    </button>
+                </form>
 
+            </header>
+            <ul class="sidebar-list" id="myUL" >
+                <li class="sidebar-item">All Categories</li>
+                <li class="sidebar-item">School<input type="color" class="sidebar-color"></li>
+                <li class="sidebar-item">Random<input type="color" class="sidebar-color"></li>
+            </ul>
+        </aside>
+        <main class="main">
+            <header class="header">
+                <div>
+                    <h1 class="header-title">Welcome back to <strong>FreeYourSheet</strong> !</h1>
+                    <div class="currently-veiwing" >You are crrently viewing all Categories</div>
+                </div>
+                <form class="create-todo-form" >
+                    <div class="form-control">
+                        <select  required>
+                            <option value="">All Caregories</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <input type="text"  placeholder="Enter To-Do" required>
+                    </div>
+                    <button class="btn btn.primary">
+                        <i class="fa fa-plus" aria-hidden="true"></i>Add To-Do
+                    </button>
+                </form>
+                
+                <form class="edit-todo-form" >
+                    <div class="form-control">
+                        <select required>
+                            <option value="">All Caregories</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <input type="text"  placeholder="Edit To-Do" required>
+                    </div>
+                    <button class="btn btn.primary">
+                        Edit
+                    </button>
+                </form>
+            
+            </header>
+            <section class="todos-container" >
+                <div class="todo" style="border-color: black;">
+                    <div class="todo-tag" style="background-color: rgba( 0, 0, 0, 0.5); color: black"> School
+                    </div>
+                    <p class="todo-description">
+                        Review my last course
+                    </p>
+                    <div class="todo-actions">
+                        <i class="far fa-edit"></i>
+                        <i class="far fa-trash-alt"></i>
+                </div>
+                
+                </div>
+                <div class="todo" style="border-color: black;">
+                    <div class="todo-tag" style="background-color: rgba( …
